@@ -1,0 +1,10 @@
+/* Create  a FAULTY CALCULATOR using JavaScript.
+This faulty calculator does the following:
+a. It takes two input numbers from the user.
+b. It performs wrong operations as follows:
+    + ---> -
+    * ---> +
+    - ---> /
+    / ---> **
+It performs wrong operations only 10% of the times.
+*/
