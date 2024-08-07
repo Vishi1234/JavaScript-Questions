@@ -1,0 +1,51 @@
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+}
+.calculator {
+    height: 450px;
+    width: 460px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(234, 164, 164);
+}
+#input-number {
+    height: 50px;
+    width: 375px;
+    position: relative;
+    left: 38px;
+    top: 15px;
+    background-color: transparent;
+}
+#result {
+    height: 50px;
+    width: 375px;
+    position: relative;
+    top: 16px;
+    left: 38px
+}
+.buttons {
+    font-size: 35px;
+    height: 300px;
+    size: 20px;
+    position: relative;
+    top: 20px;
+    left: 34px;
+    text-align: center; 
+    vertical-align: middle; 
+    margin: 10px;
+}
+.cal-buttons {
+    border-radius: 100px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    cursor: pointer;
+    background-color: blue;
+}
+.cal-buttons:hover {
+    background-color: tomato;
+}
